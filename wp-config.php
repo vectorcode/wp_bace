@@ -16,6 +16,7 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
+define( 'WPCACHEHOME', '/home/a/atlant01/devel.vectorcode/public_html/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'atlant01_devel');
 
 /** Имя пользователя MySQL */
@@ -82,7 +83,7 @@ define('WP_DEBUG', true);
     @ini_set('error_log','/public_html/php_error.log');
 
 /*Включаем кеш*/
-define('WP_CACHE', false);
+define('WP_CACHE', true);
 
 /* Это всё, дальше не редактируем. Успехов! */
 
